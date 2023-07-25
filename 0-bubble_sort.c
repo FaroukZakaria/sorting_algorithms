@@ -25,6 +25,11 @@ void bubble_sort(int *array, size_t size)
 			break;
 	}
 }
+/**
+ * swap - swap ints
+ * @a: int 1
+ * @b: int 2
+ */
 void swap(int *a, int *b)
 {
 	int tmp = *a;
